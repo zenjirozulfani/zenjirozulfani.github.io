@@ -1,0 +1,74 @@
+{
+	"produk":[
+		{
+			"kategori": "Website",
+			"class":"website",
+			"judul": "Website CMS Laravel",
+			"deskripsi": "Website CMS (Content Manajemen System) ini menggunakan framework Laravel.",
+			"tanggal": "Januari 2022",
+			"thumbnail": "thumb_laravel.png",
+			"gambar":"image_laravel.jpg",
+			"client" : "-"
+		},
+		{
+			"kategori": "Website",
+			"class":"website",
+			"judul": "Website Intern E-Disbudpar",
+			"deskripsi": "Website E-Disbudpar ini menggunakan framework Codeigniter4 dibuat untuk Dinas Pariwisata dan Kebudayaan Kota Semarang.",
+			"tanggal": "November 2021",
+			"thumbnail": "thumb_disbudpar.jpg",
+			"gambar":"image_disbudpar.jpg",
+			"client" : "Dinas Kebudayaan dan Pariwisata Kota Semarang"
+		},
+		{
+			"kategori": "Website",
+			"class":"website",
+			"judul": "Website Infolombanya Codeigniter",
+			"deskripsi": "Website Infolombanya ini menggunakan framework Codeigniter, dibuat sebagai tugas akhir mata kuliah pemrograman web.",
+			"tanggal": "September 2020",
+			"thumbnail": "thumb_infolomba.png",
+			"gambar":"image_infolomba.jpg",
+			"client" : "-"
+		},
+		{
+			"kategori": "Mobile App",
+			"class":"mobile",
+			"judul": "Mobile App Lancar Comp",
+			"deskripsi": "Aplikasi Lancar comp dikembangkan menggunakan software Android Studio, dibuat sebagai tugas akhir mata kuliah pemrograman android.",
+			"tanggal": "September 2020",
+			"thumbnail": "thumb_lancar.jpg",
+			"gambar":"image_lancar.jpg",
+			"client" : "-"
+		},
+		{
+			"kategori": "Game App",
+			"class":"game",
+			"judul": "Game Castle Protection",
+			"deskripsi": "Game Castle Protection dikembangkan menggunakan software UNITY, dibuat sebagai tugas akhir mata kuliah pemrograman game.",
+			"tanggal": "September 2019",
+			"thumbnail": "thumb_castle.jpg",
+			"gambar":"image_castle.jpg",
+			"client" : "-"
+		},
+		{
+			"kategori": "Other",
+			"class":"other",
+			"judul": "Rancang ulang website Santrendelik",
+			"deskripsi": "Perancangan ulang tampilan website Santrendelik menggunakan Adobe XD guna mempercantik tampilan website.",
+			"tanggal": "April 2019",
+			"thumbnail": "thumb_santri.jpg",
+			"gambar":"image_santri.jpg",
+			"client" : "Santrendelik"
+		},
+		{
+			"kategori": "Website",
+			"class":"website",
+			"judul": "Website Hendi Wijanarko",
+			"deskripsi": "Membuat website statis kampanye Hendi Wijanarko untuk menyampaikan visi & misi.",
+			"tanggal": "Maret 2019",
+			"thumbnail": "thumb_hendi.png",
+			"gambar":"image_hendi.jpg",
+			"client" : "Hendi Wijanarko"
+		}
+	]
+}

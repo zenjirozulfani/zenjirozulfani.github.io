@@ -1,0 +1,66 @@
+.avatar {
+	vertical-align: middle;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 3px solid #ddd;
+	background-image: image("avatar1.jpg");
+}
+
+.site-hero1 {
+	background-color: rgb(255, 255, 255);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+}
+
+.site-hero1,
+.site-hero1 .row {
+	height: 100vh;
+	min-height: 800px;
+}
+
+.site-hero1:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgb(255, 255, 255);
+}
+
+.site-hero1 h1 {
+	font-weight: 200;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.site-hero1 h1 strong {
+	font-weight: 800;
+}
+
+@media (min-width: 768px) {
+	.site-hero1 h1 {
+		font-size: 70px;
+	}
+}
+
+.site-hero1 h1,
+.site-hero1 .lead {
+	font-weight: 200;
+	color: #fff;
+}
+
+.site-hero1 .lead {
+	line-height: 2;
+}
+
+.site-hero1 .site-subheading {
+	max-width: 640px;
+	margin: 0 auto;
+	color: rgba(255, 255, 255);
+}
