@@ -39,12 +39,13 @@ $mail->Body = $content;
 if (empty($attachment)) { // Jika tanpa attachment
 	$send = $mail->send();
 	if ($send) { // Jika Email berhasil dikirim
-		// echo "<h1>Email berhasil dikirim</h1><br /><a href='index.php'>Kembali ke Form</a>";
+		//echo "<h1>Email berhasil dikirim</h1><br /><a href='index.php'>Kembali ke Form</a>";
 
-		header('Location:index.php');
+		header('Location: index.html');
 	} else { // Jika Email gagal dikirim
-		header('Location:index.php');
-		// echo '<h1>ERROR<br /><small>Error while sending email: '.$mail->getError().'</small></h1>'; // Aktifkan untuk mengetahui error message
+		header('Location: index.html');
+
+		//echo '<h1>ERROR<br /><small>Error while sending email: </small></h1>'; // Aktifkan untuk mengetahui error message
 	}
 } else { // Jika dengan attachment
 	$tmp = $_FILES['attachment']['tmp_name'];
